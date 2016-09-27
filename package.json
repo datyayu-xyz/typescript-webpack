@@ -1,0 +1,32 @@
+{
+  "name": "typescript-webpack",
+  "version": "1.0.0",
+  "description": "Ejemplo sencillo de como usar typescript con webpack. ",
+  "author": "Arturo Coronel <aoitsu3@gmail.com> (http://datyayu.xyz)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/datyayu-xyz/typescript-webpack"
+  },
+
+  "main": "./dist/bundle.js",
+
+  "scripts": {
+    "start": "webpack-dev-server --inline",
+    "build": "webpack"
+  },
+
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "devDependencies": {
+    "@types/react": "^0.14.37",
+    "@types/react-dom": "^0.14.17",
+    "source-map-loader": "^0.1.5",
+    "ts-loader": "^0.8.2",
+    "typescript": "^2.0.3",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.1"
+  }
+}
