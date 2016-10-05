@@ -5,7 +5,7 @@ Ejemplo sencillo de como usar typescript con webpack.
 Este proyecto usa React y jsx pero los conceptos son aplicables 
 aun si se usa con otras tecnologias.
 
-BLOG POST COMING SOON™
+https://datyayu.xyz/typescript-webpack-react
 
 
 ## Uso
